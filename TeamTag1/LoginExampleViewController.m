@@ -9,6 +9,10 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UITextField *txtUser;
+@property (weak, nonatomic) IBOutlet UITextField *txtPass;
+- (IBAction)LoginSelected:(id)sender;
+- (IBAction)SignupSelected:(id)sender;
 
 @end
 
@@ -26,4 +30,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)LoginSelected:(id)sender {
+}
+
+- (IBAction)SignupSelected:(id)sender {
+}
+- (IBAction)LoginSelected:(id)sender {
+}
 @end
